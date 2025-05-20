@@ -1,6 +1,6 @@
 # Admin Sales Dashboard System
 
-A web-based sales management dashboard developed using **HTML**, **CSS**, **JavaScript**, **PHP**, and **MySQL (via XAMPP)**. This system is designed for both **administrators** and **customers**, offering powerful tools for managing orders, tracking sales, and monitoring user data. It utilizes **Bootstrap** for responsive UI, **Chart.js** for dynamic charting, and **DataTables** for advanced table features.
+A web-based sales management dashboard developed using **HTML**, **CSS**, **JavaScript**, **PHP**, and **MySQL (via XAMPP)**. This system is designed for both **administrators** and **customers**, offering a tools for managing orders, tracking sales, and monitoring user data. It utilizes **Bootstrap** for responsive UI, **Chart.js** for dynamic charting, and **DataTables** for advanced table features.
 
 ---
 
