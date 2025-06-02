@@ -3,12 +3,11 @@
 session_start();
 
 $errors = [
-    // ?? - to check if a variable exist and not null
-    // eg: if 'login_error' exist use it, if not, assign empty string
-    'login' => $_SESSION['login_error'] ?? '',
-    'register'=> $_SESSION['register_error'] ?? ''
+    'login' => isset($_SESSION['login_error']) ? $_SESSION['login_error'] : '',
+    'register' => isset($_SESSION['register_error']) ? $_SESSION['register_error'] : ''
 ];
-$activeForm = $_SESSION['active_form'] ?? 'login';
+$activeForm = isset($_SESSION['active_form']) ? $_SESSION['active_form'] : 'login';
+
 
 session_unset();
 
